@@ -6,6 +6,7 @@ A collection of Java exercises and small applications created while learning obj
 
 | Tutorial | Topics and examples |
 | --- | --- |
+| `tutorial1` | Basic Java programs for student information, arithmetic operations, area calculation, swapping values, highest score, even or odd, pass or fail, and salary calculation |
 | `tutorial2` | Classes, objects, constructors, fields, methods, and simple calculations |
 | `tutorial3` | Basic programs for areas, attendance, employees, showrooms, and supermarkets |
 | `tutorial4` | Object-oriented applications for amusement parks, employee management, hospital billing, and student performance |
@@ -17,6 +18,7 @@ A collection of Java exercises and small applications created while learning obj
 
 ```text
 class/
+├── tutorial1/   Basic Java programming exercises
 ├── tutorial2/   Basic OOP exercises
 ├── tutorial3/   Small Java applications
 ├── tutorial4/   Class-based domain applications
