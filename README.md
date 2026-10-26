@@ -13,6 +13,9 @@ A collection of Java exercises and small applications created while learning obj
 | `tutorial5` | Encapsulation, inheritance, abstraction, interfaces, payment systems, shopping, banking, and ranking |
 | `tutorial6` | Packages, account types, course and student management, banking, document management, rentals, and payments |
 | `tutorial7` | Package-based college, course, doctor, patient, and student examples |
+| `tutorial8` | Concurrent tasks, login, food delivery, hospital, text processing, and student registration examples |
+| `tutorial9` | Search, registration, employee portal, library management, product store, and service-cost examples |
+| `tutorial10` | Python functional-programming exercises using `filter`, `map`, `reduce`, lambda functions, and dictionary-based data |
 
 ## Project Structure
 
@@ -24,12 +27,16 @@ class/
 ├── tutorial4/   Class-based domain applications
 ├── tutorial5/   Inheritance, abstraction, and interfaces
 ├── tutorial6/   Packages and larger examples
-└── tutorial7/   Multi-package examples
+├── tutorial7/   Multi-package examples
+├── tutorial8/   Concurrent and task-based examples
+├── tutorial9/   Java application examples
+└── tutorial10/  Python functional-programming exercises
 ```
 
 ## Requirements
 
 - Java Development Kit (JDK) 8 or newer
+- Python 3.8 or newer for the `tutorial10` exercises
 - A Java editor or IDE such as VS Code, IntelliJ IDEA, or Eclipse
 
 Check that Java is installed:
@@ -57,6 +64,28 @@ java -cp out Banking
 
 The public class name, package declaration, and available `main` method determine the exact command for each example.
 
+### Run the Python exercises
+
+The `tutorial10` directory contains one standalone Python file for each exercise:
+
+| File | Description |
+| --- | --- |
+| [`student.py`](tutorial10/student.py) | Selects students who passed both required subjects |
+| [`product_discount.py`](tutorial10/product_discount.py) | Filters eligible products and calculates discounted prices |
+| [`parking.py`](tutorial10/parking.py) | Finds available parking slots by vehicle type |
+| [`employee_promo.py`](tutorial10/employee_promo.py) | Selects employees eligible for promotion |
+| [`employee.py`](tutorial10/employee.py) | Filters employees, revises salaries, and calculates the salary total |
+| [`electricity.py`](tutorial10/electricity.py) | Calculates electricity costs and total consumption |
+| [`clg.py`](tutorial10/clg.py) | Filters passed students, applies grace marks, and totals the marks |
+
+Run any exercise from the repository root with:
+
+```bash
+python tutorial10/student.py
+```
+
+Replace `student.py` with any other filename in the table to run a different exercise.
+
 ## Learning Goals
 
 - Create and use classes and objects
@@ -65,3 +94,4 @@ The public class name, package declaration, and available `main` method determin
 - Design abstract classes and interfaces
 - Organize related classes into packages
 - Build small applications from multiple collaborating classes
+- Use Python functional programming with lambda expressions and higher-order functions
